@@ -1,101 +1,236 @@
-# HTML & CSS3 & JavaScript Course
+<a name="readme-top"></a>
 
-If you are not familiar with linters, read [root level README](../README.md).
+<div align="center">
 
-## Set-up GitHub Actions
+  <img src="./murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-Please do the following **steps in this order**:
+<h3><b>To Do List</b></h3>
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-   - **Remember** to use the file linked above
-   - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub actions checks:
+</div>
 
-![gh actions checks](../assets/images/gh-actions-html-css-checks.png)
+<!-- TABLE OF CONTENTS -->
 
-Click on the `Details` link of each action to see the full output and the errors that need to be fixed:
+# 📗 Table of Contents
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📺 Presentation](#presentation)
+- [📝 License](#license) -->
 
-## Set-up linters in your local env
+PROJECT DESCRIPTION
 
-**Note**: The `npm` package manager is going to create a `node_modules` directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a [`.gitignore`](https://git-scm.com/docs/gitignore) file and add `node_modules` to it:
+# 📖 To DO List using webPack <a name="about-project"></a>
+
+**Awesome Books** In this project, we made a basic website that allows users to add/remove books from a list. we achieved that by using JavaScript classes. we also dynamically modified the DOM and added basic events.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>webPack</li>
+    <li>HTML</li>
+    <li>JavaScript</li>
+    <li>CSS</li>
+    </ul>
+</details>
+
+<!-- Features -->
+
+<!-- ### Key Features <a name="key-features"></a>
+
+- **Responsive design for both Desktop and Mobile**
+- **Speaker section geerated dynamically via js**
+- **Designed with mobile first concept** -->
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://github.com/Fahim-Khan-P/To-do-List.git)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+ GETTING STARTED
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps:
+
+```sh
+  git clone https://github.com/Fahim-Khan-P/To-do-List.git
+```
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Code Editor: VS Code
+- Web Browser
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+
+-->
+
+<!-- ### Setup -->
+
+<!-- Clone this repository to your desired folder: -->
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+<!-- ### Install -->
+
+<!-- Install this project with: -->
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+<!-- ### Usage
+
+To run the project, execute the following command: -->
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+<!-- ### Run tests
+
+To run tests, run the following command: -->
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+<!-- ### Deployment
+
+You can deploy this project using: -->
+
+<!--
+Example:
+
+```sh
 
 ```
-# .gitignore
-node_modules/
-```
+ -->
 
-### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more.
+<!-- AUTHORS -->
 
-You can get the Lighthouse report by any of the following ways:
+## 👥 Authors <a name="authors"></a>
 
-- [In Chrome DevTools](https://developers.google.com/web/tools/lighthouse#devtools)
-- [From the command line](https://developers.google.com/web/tools/lighthouse#cli)
-- [As a Node module](https://developers.google.com/web/tools/lighthouse#programmatic)
-- [From a web UI](https://developers.google.com/web/tools/lighthouse#psi)
+<!-- > Mention all of the collaborators of this project. -->
 
-To access the report generated by Lighthouse on your pull request, click the `Details` link for the `Linters/Lighthouse` check and you will see the full output of the action:
+👤 **Fahimullah Tanvir**
 
-![lighthouse report](../assets/images/lighthouse-report.png)
+- GitHub: [@Fahim-Khan-P](https://github.com/Fahim-Khan-P)
 
-### [Webhint](https://webhint.io/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
+<!-- FUTURE FEATURES -->
 
-**NOTE:** If you are running on Windows, you need to initialize npm to create `package.json` file. 
-   ```
-   npm init -y
-   ```
+<!-- ## 🔭 Future Features <a name="future-features"></a>
 
-1. Run
-   ```
-   npm install --save-dev hint@7.x
-   ```
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
-   ```
-   npx hint .
-   ```
-5. Fix validation errors.
+- **Add a dynamic button for mobile version**
+- **Add form for reserve tickets** -->
 
-### [Stylelint](https://stylelint.io/)
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+<!-- CONTRIBUTING -->
 
-1. Run
+## 🤝 Contributing <a name="contributing"></a>
 
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
+Contributions, issues, and feature requests are welcome!
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+Feel free to check the [issues page](../../issues/).
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [ESLint](https://eslint.org/)
+<!-- SUPPORT -->
 
-1. Run 
-   ```
-   npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-   ``` 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+## ⭐️ Show your support <a name="support"></a>
 
-2. Copy [.eslintrc.json](./.eslintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint .` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+If you like this project, you can support me by giving a ⭐.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+<!-- > Give credit to everyone who inspired your codebase. -->
+
+I would like to thank all of my code reviewers for giving me constructive feedback.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<!-- ## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2] -->
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- ## 📺 Presentation <a name="presentation"></a>
+
+[Presentation about this project](https://www.loom.com/share/506c91dd53a44229a9c31ec8c3f6a828) -->
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE/MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
