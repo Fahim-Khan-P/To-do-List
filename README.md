@@ -63,7 +63,7 @@ PROJECT DESCRIPTION
 
 - [Live Demo Link](https://github.com/Fahim-Khan-P/To-do-List.git)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  GETTING STARTED
 
