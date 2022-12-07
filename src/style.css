@@ -20,7 +20,7 @@ section {
 #dynamicList {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 ul {
