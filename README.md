@@ -31,7 +31,7 @@ PROJECT DESCRIPTION
 
 # 📖 To DO List using webPack <a name="about-project"></a>
 
-**Awesome Books** In this project, we made a basic website that allows users to add/remove books from a list. we achieved that by using JavaScript classes. we also dynamically modified the DOM and added basic events.
+**To Do List** In this project, we made a basic to do list due to given requirments that we used webPack for building an HTML template and to add CSS style automatically without link in HTML head.
 
 ## 🛠 Built With <a name="built-with"></a>
 
