@@ -73,7 +73,6 @@ clearBtn.addEventListener('click', () => {
   document.location.reload();
 });
 
-
 // function for updating the edited tasks
 const updateTask = (index, editedText) => {
   const newTasks = tasks.filter((item) => item.index !== index);
