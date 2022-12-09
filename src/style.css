@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: black; */
 }
 
 section {
@@ -12,14 +13,29 @@ section {
   justify-content: center;
 }
 
-#listcontainer {
-  display: flex;
-  flex-direction: column;
+.fa-trash:hover {
+  color: red;
+  font-size: 18px;
 }
 
-#dynamicList {
+.editedText {
+  border: none;
+}
+
+.editedText:focus {
+  border: none;
+}
+
+/* #listcontainer {
   display: flex;
+  flex-direction: column;
   flex-direction: row-reverse;
+  justify-content: space-between;
+} */
+
+.dynamicList {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -38,16 +54,12 @@ li {
 #input {
   border: none;
   font-style: italic;
-
-  /* margin-bottom: 0.7em; */
   width: 100%;
 }
 
 #header {
   font-size: 1.2em;
   font-weight: bold;
-
-  /* margin-bottom: 25px; */
 }
 
 #clear {
