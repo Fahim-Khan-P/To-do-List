@@ -28,6 +28,10 @@ section {
   transition-duration: 0.4s;
 }
 
+.fas:hover {
+  cursor: pointer;
+}
+
 .editedText {
   border: none;
 }

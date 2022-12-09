@@ -1,11 +1,13 @@
 // const { remove } = require('lodash');
+import { changeStatus } from './changeState.js';
+
 require('./style.css');
 
 const inputText = document.getElementById('input');
 const clearBtn = document.getElementById('clear');
 
 // getting tasks from localStorage
-let tasks = localStorage.getItem('tasks') ? JSON.parse(localStorage.getItem('tasks')) : [];
+const tasks = localStorage.getItem('tasks') ? JSON.parse(localStorage.getItem('tasks')) : [];
 const listcontainer = document.getElementById('listcontainer');
 
 // task class constructor
@@ -42,23 +44,6 @@ const removeTask = (index) => {
     return task;
   });
   localStorage.setItem('tasks', JSON.stringify(newTasks));
-  document.location.reload();
-};
-
-// arrow function for state
-const changeStatus = (index) => {
-  tasks = tasks.map((task) => {
-    if (task.index === index) {
-      const test = task.completed;
-      if (test) {
-        task.completed = false;
-      } else {
-        task.completed = true;
-      }
-    }
-    return task;
-  });
-  localStorage.setItem('tasks', JSON.stringify(tasks));
   document.location.reload();
 };
 
