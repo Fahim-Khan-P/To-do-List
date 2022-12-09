@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: gainsboro;
 }
 
 section {
@@ -12,9 +13,19 @@ section {
   justify-content: center;
 }
 
+#ul {
+  background-color: white;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 2px 2px black;
+  margin-top: 20vh;
+}
+
 .fa-trash:hover {
   color: red;
-  font-size: 18px;
+  font-size: 20px;
+  transition-property: font-size, color;
+  transition-duration: 0.4s;
 }
 
 .editedText {
@@ -24,13 +35,6 @@ section {
 .editedText:focus {
   border: none;
 }
-
-/* #listcontainer {
-  display: flex;
-  flex-direction: column;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-} */
 
 .dynamicList {
   display: flex;
@@ -63,9 +67,14 @@ li {
 
 #clear {
   text-align: center;
+  color: grey;
 }
 
 #clear:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: brown;
+  font-size: large;
+  transition-property: font-size;
+  transition-duration: 0.8s;
 }
