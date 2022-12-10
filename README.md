@@ -57,11 +57,11 @@ PROJECT DESCRIPTION
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-<!-- LIVE DEMO -->
+LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/Fahim-Khan-P/To-do-List.git)
+- [Live Demo Link](https://fahim-khan-p.github.io/To-do-List/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
