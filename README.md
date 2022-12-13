@@ -61,7 +61,7 @@ LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://fahim-khan-p.github.io/To-do-List/)
+- [Live Demo Link](https://fahim-khan-p.github.io/To-do-List/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
